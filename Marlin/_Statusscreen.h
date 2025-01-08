@@ -45,9 +45,9 @@ const unsigned char status_logo_bmp[] PROGMEM = {
 //
 #define STATUS_HOTEND_ANIM
 #define STATUS_ALT_BED_BITMAP
-#define STATUS_ALT_FAN_BITMAP
+//#define STATUS_ALT_FAN_BITMAP
 
-#define STATUS_FAN_FRAMES      4
+//#define STATUS_FAN_FRAMES      4
 #define STATUS_HEATERS_XSPACE 20
 #define STATUS_HEATERS_X      59
 #define STATUS_BED_X          78
