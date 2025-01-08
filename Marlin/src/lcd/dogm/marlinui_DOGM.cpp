@@ -245,8 +245,9 @@ bool MarlinUI::detected() { return true; }
   }
 
   void MarlinUI::show_bootscreen() {
-    TERN_(SHOW_CUSTOM_BOOTSCREEN, show_custom_bootscreen());
-    show_marlin_bootscreen();
+    //TERN_(SHOW_CUSTOM_BOOTSCREEN, show_custom_bootscreen());
+    //show_marlin_bootscreen();
+    show_custom_bootscreen();
   }
 
   void MarlinUI::bootscreen_completion(const millis_t sofar) {
